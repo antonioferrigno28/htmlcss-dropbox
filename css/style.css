@@ -1,0 +1,220 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* utils */
+
+.container {
+  margin: 0 auto;
+  padding: 0 15px;
+  width: 1080px;
+  max-width: 100%;
+}
+
+.btn {
+  margin: 0 10px;
+  padding: 10px;
+  text-decoration: none;
+  border: none;
+}
+
+.btn.btn-blue {
+  background-color: #4a90e2;
+  color: white;
+}
+
+/* header */
+header a {
+  text-decoration: none;
+  color: gray;
+  margin: 0 15px;
+}
+.left-header {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.right-header {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  justify-content: flex-end;
+}
+
+.upper-header ul {
+  display: flex;
+  list-style: none;
+  margin: 0 15px;
+}
+
+.upper-header img {
+  height: 30px;
+}
+
+.upper-header > .container {
+  display: flex;
+  width: 100%;
+  padding: 0;
+  height: 60px;
+}
+
+.upper-header .header-item {
+  flex-basis: 50%;
+  padding: 5px 10px;
+
+  /* debug
+  background-color: #d3a220;
+  border: 2px dashed black; */
+}
+
+/* hero */
+
+.hero img {
+  width: 100%;
+}
+.hero {
+  padding: 0 0 80px 0;
+  position: relative;
+  background-color: #acd6e4;
+
+  /* debug
+  background-color: #010088;
+  border: 2px dashed black; */
+}
+
+.hero-text h1 {
+  font-size: 5rem;
+  margin: 30px 0;
+}
+
+.hero-placement {
+  display: flex;
+  margin-top: 30px;
+}
+
+.hero > .container {
+  width: 1200px;
+  min-height: 400px;
+  position: relative;
+  top: 130px;
+  /* debug
+  border: 2px dashed black;
+  background-color: #ec81eb; */
+}
+
+.hero button {
+  margin: 0 0 30px 0;
+}
+
+.hero p {
+  margin-bottom: 30px;
+  font-size: 1.2rem;
+}
+
+.hero i {
+  font-size: 3rem;
+  margin-top: 15px;
+}
+/* main */
+
+main .container {
+  margin: 0 auto;
+  padding: 50px 15px;
+  width: 1080px;
+  max-width: 100%;
+}
+
+h1 {
+  margin-top: 20px;
+  color: #222;
+  font-size: 28px;
+}
+
+.billing-options {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.billing-options input {
+  margin: 0 15px;
+  font-size: 16px;
+}
+
+.plans-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 20px;
+}
+
+.plan {
+  background-color: white;
+  border: 1px solid #ddd;
+  padding: 20px;
+  width: 300px;
+  text-align: left;
+  height: 900px;
+}
+
+.plan ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.plan ul li {
+  position: relative;
+  padding-left: 25px;
+  margin: 30px 0;
+}
+
+.plan ul li::before {
+  content: "\2713";
+  position: absolute;
+  left: 0;
+  color: #007bff;
+}
+
+.purchase-option {
+  text-align: center;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.plan p {
+  margin: 20px 0;
+}
+
+.plan h4 {
+  margin: 20px 0;
+}
+
+.plan h2 {
+  margin-top: 20px 0;
+}
+
+.plan h3 {
+  font-size: 18px;
+  margin: 20px 0;
+}
+
+.plan .price {
+  margin-bottom: 50px;
+}
+
+.plan .btn {
+  margin-top: 30px;
+}
+
+.container-enterprise {
+  display: block;
+}
