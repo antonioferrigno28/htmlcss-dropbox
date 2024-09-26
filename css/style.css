@@ -398,7 +398,7 @@ main .section-cards .card {
 section.w100-container {
   display: flex;
   align-items: center;
-  width: 100vw;
+  width: 100%;
   min-height: 300px;
 }
 
