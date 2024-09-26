@@ -68,9 +68,9 @@ header a {
 .upper-header > .container {
   display: flex;
   width: 100%;
-  padding: 0;
-  height: 60px;
-  align-items: flex-end;
+  padding: 0 10px;
+  height: 80px;
+  align-items: center;
 }
 
 .upper-header .header-item {
@@ -498,7 +498,7 @@ section.w100-container {
 /* footer*/
 
 .footer-w100-container {
-  width: 100vw;
+  width: 100%;
 
   color: white;
   background-color: #222;
@@ -565,6 +565,7 @@ footer h2 {
   align-items: center;
   gap: 10px;
   margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 .container-w80-lower-footer .footer-divider {
